@@ -32,7 +32,7 @@ def decrypt_value(encrypted_value, key):
         raise ValueError(f"Erreur lors du décryptage : {str(e)}")
 
 # Route pour décrypter une valeur (méthode POST)
-@app.route('/decrypt/', methods=['POST'])
+@app.route('/decrypt/'<string:valeur>', methods=['POST'])
 def decrypt():
     try:
         # Récupération des données JSON de la requête
